@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="cus.css">
+    <link rel="icon" href="favicon.png">
+
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER &nbspFORECAST</h1>
+        <div class="divider1"></div>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+        <div class="divider1"></div>
+    </div>
+
+    <main>        
+        <div class="weather">
+            <h2 id="city">Delhi,IN</h2>
+            <div class="temp-box">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" id="img">
+                <p id="temperature">23 °C</p>
+            </div>
+            <span id="clouds">Clouds</span>
+        </div>
+    </main>
+
+    <div class="forecst">
+        <div class="divider2"></div>
+        <p class="cast-header"> Next 4 days forecast</p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">Sun NOV 03 2022</p>
+                <p>21 °C / 21 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Mon NOV 04 2022</p>
+                <p >22 °C / 22 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Tue NOV 05 2022</p>
+                <p>22 °C / 21 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Wed NOV 06 2022</p>
+                <p>23 °C / 22 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

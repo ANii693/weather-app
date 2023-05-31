@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: whitesmoke;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background-image: url('https://wallpapercave.com/wp/wp2035240.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header h1{
+    color: rgb(12, 11, 9);
+    font-size: 45px;
+    font-family: serif;
+}
+.divider1{
+    
+    height: 30px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: rgb(154, 195, 231);
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: gray;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.weather{
+    text-align: center;
+    color: aliceblue;
+}
+#city{
+    color: black;
+    font-size: 30px;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(240, 248, 255, 0.408);
+}
+#temperature{
+    font-size: 42px;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#clouds{
+    font-size: 20px;
+    background: rgba(39, 46, 25, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+main{
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+
+.forecst{
+    margin: 20px 50px;
+    color: aliceblue;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cast-header{
+    color: rgb(4, 32, 56);
+    background: rgba(252, 250, 249, 0.539);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.divider2{
+    
+    height: 60px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.time,.date{
+    color: rgb(254, 189, 132);
+}
+.desc{
+    color: rgb(196, 255, 77);
+}
